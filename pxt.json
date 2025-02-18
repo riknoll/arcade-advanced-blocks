@@ -4,11 +4,12 @@
     "files": [
         "main.ts",
         "math.d.ts",
-        "info.d.ts",
         "strings.ts",
         "images.ts",
         "arrays.ts",
-        "game.ts"
+        "info.ts",
+        "game.ts",
+        "ns.ts"
     ],
     "supportedTargets": [
         "arcade"

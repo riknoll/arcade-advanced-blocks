@@ -1,7 +1,7 @@
 namespace advancedBlocks {
     //% blockId=advanced_gameDeltaTimeMillis
     //% block="milliseconds since last frame"
-    //% blockNamespace=Game
+    //% blockNamespace=game
     //% group=Advanced
     //% weight=100
     //% blockGap=8
@@ -11,7 +11,7 @@ namespace advancedBlocks {
 
     //% blockId=advanced_gameMillis
     //% block="milliseconds since reset"
-    //% blockNamespace=Game
+    //% blockNamespace=game
     //% group=Advanced
     //% weight=95
     export function millis(): number {
@@ -21,7 +21,7 @@ namespace advancedBlocks {
     //% blockId=advanced_gameRegisterFrameHandler
     //% block="register frame handler with priority $priority"
     //% handlerStatement=1
-    //% blockNamespace=Game
+    //% blockNamespace=game
     //% group=Advanced
     //% weight=90
     export function registerFrameHandler(priority: number, handler: () => void) {
@@ -30,7 +30,7 @@ namespace advancedBlocks {
 
     //% blockId=advanced_gamePushScene
     //% block="push game scene"
-    //% blockNamespace=Game
+    //% blockNamespace=game
     //% group=Advanced
     //% weight=80
     //% blockGap=8
@@ -40,7 +40,7 @@ namespace advancedBlocks {
 
     //% blockId=advanced_gamePopScene
     //% block="pop game scene"
-    //% blockNamespace=Game
+    //% blockNamespace=game
     //% group=Advanced
     //% weight=70
     export function popScene() {
@@ -49,7 +49,7 @@ namespace advancedBlocks {
 
     //% blockId=advanced_gameOnScenePush
     //% block="on scene push"
-    //% blockNamespace=Game
+    //% blockNamespace=game
     //% group=Advanced
     //% weight=60
     //% blockGap=8
@@ -59,7 +59,7 @@ namespace advancedBlocks {
 
     //% blockId=advanced_gameOnScenePop
     //% block="on scene pop"
-    //% blockNamespace=Game
+    //% blockNamespace=game
     //% group=Advanced
     //% weight=50
     export function onScenePop(handler: () => void) {
@@ -68,7 +68,7 @@ namespace advancedBlocks {
 
     //% blockId=advanced_gameShowSystemPauseMenu
     //% block="show system pause menu"
-    //% blockNamespace=Game
+    //% blockNamespace=game
     //% group=Advanced
     //% weight=40
     //% blockGap=8
@@ -78,7 +78,7 @@ namespace advancedBlocks {
 
     //% blockId=advanced_gameCloseSystemPauseMenu
     //% block="close system pause menu"
-    //% blockNamespace=Game
+    //% blockNamespace=game
     //% group=Advanced
     //% weight=35
     //% blockGap=8
@@ -88,7 +88,7 @@ namespace advancedBlocks {
 
     //% blockId=advanced_gameIsSystemPauseMenuVisible
     //% block="is system pause menu visible"
-    //% blockNamespace=Game
+    //% blockNamespace=game
     //% group=Advanced
     //% weight=30
     //% blockGap=8
@@ -99,7 +99,7 @@ namespace advancedBlocks {
     //% blockId=advanced_gameAddSystemPauseMenuEntry
     //% block="add system pause menu entry $name $icon"
     //% icon.shadow=screen_image_picker
-    //% blockNamespace=Game
+    //% blockNamespace=game
     //% handlerStatement=1
     //% group=Advanced
     //% weight=25
