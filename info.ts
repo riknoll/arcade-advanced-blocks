@@ -11,6 +11,7 @@ namespace advancedBlocks {
 
     //% blockId=advanced_infoShowLife
     //% block="set life visible $on"
+    //% on.shadow=toggleOnOff
     //% blockNamespace=info
     //% group=Advanced
     //% weight=90
@@ -21,6 +22,7 @@ namespace advancedBlocks {
 
     //% blockId=advanced_infoShowScore
     //% block="set score visible $on"
+    //% on.shadow=toggleOnOff
     //% blockNamespace=info
     //% group=Advanced
     //% weight=80
@@ -31,6 +33,7 @@ namespace advancedBlocks {
 
     //% blockId=advanced_infoShowCountdown
     //% block="set countdown visible $on"
+    //% on.shadow=toggleOnOff
     //% blockNamespace=info
     //% group=Advanced
     //% weight=70
@@ -93,7 +96,7 @@ namespace advancedBlocks {
     //% block="HUD text color"
     //% blockNamespace=info
     //% group=Advanced
-    //% weight=40
+    //% weight=35
     export function fontColor(): number {
         return info.fontColor();
     }

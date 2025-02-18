@@ -3,6 +3,7 @@ interface Array<T> {
     //% block="$this join elements in string||with separator $sep"
     //% this.shadow=variables_get
     //% this.defl=list
+    //% blockNamespace=arrays
     //% group=Advanced
     join(sep?: string): string;
 
