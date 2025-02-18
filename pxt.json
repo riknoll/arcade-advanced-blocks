@@ -3,7 +3,8 @@
     "version": "0.0.0",
     "files": [
         "main.ts",
-        "strings.ts"
+        "strings.ts",
+        "images.ts"
     ],
     "supportedTargets": [
         "arcade"
