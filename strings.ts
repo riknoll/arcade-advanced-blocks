@@ -66,7 +66,7 @@ interface String {
     endsWith(suffix: string, index?: number): boolean;
 }
 
-namespace stringHelpers {
+namespace advancedBlocks {
     /**
      * Replaces the first occurence of one string with another.
      *
