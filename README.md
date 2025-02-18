@@ -19,6 +19,8 @@ This is a Microsoft MakeCode Arcade extension that adds extra blocks to the exis
 * `fillTriangle()`
 * `drawPolygon4()`
 * `fillPolygon4()`
+* `print()`
+* `printCenter()`
 * `blit()`
 
 ### Array blocks
